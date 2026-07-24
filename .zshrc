@@ -112,3 +112,4 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH=$PATH:/home/shak/.spicetify
 
 . "$HOME/.local/bin/env"
+alias upall='sudo dnf upgrade -y && flatpak update -y'
