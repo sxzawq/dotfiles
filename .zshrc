@@ -113,3 +113,5 @@ export PATH=$PATH:/home/shak/.spicetify
 
 . "$HOME/.local/bin/env"
 alias upall='sudo dnf upgrade -y && flatpak update -y'
+export VISUAL=/usr/bin/nvim
+export EDITOR=/usr/bin/nvim

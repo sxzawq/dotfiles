@@ -1,11 +1,11 @@
-format = '''$username$hostname$directory
+format = '''$username$directory
 $character'''
 add_newline = false
 
 [username]
 show_always = true
 style_user = "bold green"
-format = "[$user]($style)"
+format = "[$user]($style) "
 
 [hostname]
 ssh_only = false
